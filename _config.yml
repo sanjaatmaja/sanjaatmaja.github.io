@@ -1,8 +1,8 @@
 # Site settings
-title: Vulnerability ID
+title: Willy Arisky
 email: willy.arisky@live.com
 description: > # this means to ignore newlines until "baseurl:"
-  Willy Arisky
+  Buku catatan dan diary Willy Arisky 
 tagline: Knowledge better than certificate
 baseurl: "" # the subpath of your site, e.g. /blog/
 author: Willy Arisky
