@@ -1,12 +1,12 @@
 # Site settings
 title: Vulnerability ID
-email: your-email@domain.com
+email: willy.arisky@live.com
 description: > # this means to ignore newlines until "baseurl:"
-  Security is just an illusion
-tagline: Security is just an illusion
+  Willy Arisky
+tagline: Knowledge better than certificate
 baseurl: "" # the subpath of your site, e.g. /blog/
 author: Willy Arisky
-url: "http://willyarisky.github.io" # the base hostname & protocol for your site
+url: "http://willy.vulnerability.or.id" # the base hostname & protocol for your site
 twitter: WillyArisky
 github:  willyarisky
 facebook: willy.arisky
