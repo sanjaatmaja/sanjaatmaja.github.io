@@ -1,0 +1,64 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="RedWhite personal blog">
+  <meta name="author" content="RedWhite">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/skeleton.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/gantengin.css" | prepend: site.baseurl }}">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+<body>
+
+<div style="margin-top:10%;"></div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="six columns">
+      <div class="logo">
+          {{ site.title }}
+          <br>
+          <span class="tagline">{{ site.tagline }}</span>
+      </div>
+          <br>
+          <nav>
+            <ul class="menu">
+              <li><a class="button" href="{{ "/artikel" | predend: site.baseurl }}">Artikel</a></li>
+              <li><a class="button" href="{{ site.video }}">Video</a></li>
+            </ul>
+          </nav>
+    </div>
+
+    <div class="five columns">
+      <div class="ganteng">
+          <span class="screen"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <center class="copyright">
+  Copyright &copy; 2015 - Vulnerability #ID
+  <br>
+  Hosted by Github
+  </center>
+</footer>
+
+</body>
+</html>

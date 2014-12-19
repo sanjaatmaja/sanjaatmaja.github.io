@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+<div style="margin-top:5%;"></div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="four columns">
+      <div class="logo">
+          Vulnerability <span class="logo2nd">#ID</span>
+          <div class="tagline">Security is just an illusion</div>
+      </div>
+          <hr class="style-two">
+          <nav>
+            <ul class="nav">
+              <li><a href="{{ site.url }}"><i class="fa fa-arrow-left"></i>Beranda</a></li>
+              <li><a href="{{ "/artikel" | predend: site.baseurl }}"><i class="fa fa-arrow-left"></i>Artikel</a></li>
+              <li><a href="{{ site.video }}"><i class="fa fa-arrow-left"></i>Video</a></li>
+            </ul>
+          </nav>
+    </div>
+        {{ content }}
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
