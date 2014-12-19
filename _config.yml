@@ -1,15 +1,15 @@
 # Site settings
-title: Willy Arisky
-email: willy.arisky@live.com
+title: Ade da Atmaja
+email: sanjaatmaja@live.com
 description: > # this means to ignore newlines until "baseurl:"
-  Buku catatan dan diary Willy Arisky 
-tagline: Knowledge better than certificate
+  Buku catatan dan diary ade da atmaja
+tagline: Handsome right?
 baseurl: "" # the subpath of your site, e.g. /blog/
-author: Willy Arisky
+author: Ade da Atmaja
 url: "http://willy.vulnerability.or.id" # the base hostname & protocol for your site
-twitter: WillyArisky
-github:  willyarisky
-facebook: willy.arisky
+twitter: sanjaatmaja
+github:  sanjaatmaja
+facebook: sumpah.akurapopo
 video: http://video.vulnerability.or.id
 email: willy.arisky@live.com
 
